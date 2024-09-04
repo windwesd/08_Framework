@@ -57,7 +57,7 @@ public class ForwardTestController {
 	
 	/* Spring Boot Controller에서 특수한 경우를 제외하고 매핑주소 제일 앞에 "/"를 적지 않는다 */
 	
-	@RequestMapping("forward")
+	@RequestMapping("forward") // /forward 요청 매핑 (GET/POST 가리지 않음)
 	public String forwardTest() {
 		
 		System.out.println("/forward 매핑 됐는지 확인");

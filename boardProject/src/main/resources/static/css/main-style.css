@@ -122,6 +122,7 @@ nav{
 
 nav > ul{
   display: flex;
+  background-color: oldlace;
   list-style: none; /* li 태그 앞에 기호 삭제 */
   height: 100%;
 }

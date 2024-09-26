@@ -11,4 +11,25 @@ public interface MainService {
 	 */
 	List<Member> selectMemberList();
 
+	
+	/** 빠른 로그인
+	 * @param memberNo
+	 * @return loginMember
+	 */
+	Member directLogin(int memberNo);
+
+
+	/** 패스워드 초기화
+	 * @param memberNo
+	 * @return result
+	 */
+	int resetPw(int memberNo);
+
+
+	/** 탈퇴 상태 변경
+	 * @param memberNo
+	 * @return
+	 */
+	int changeBtn(int memberNo);
+
 }
